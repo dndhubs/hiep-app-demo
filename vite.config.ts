@@ -14,7 +14,7 @@ export default defineConfig({
 		svgrPlugin(),
 		tailwindcss(),
 	],
-  	base: '/hiep-app-demo/', // ⚠️ MUST match your exact GitHub repository name
+  	base: '/', // ⚠️ MUST match your exact GitHub repository name
 	build: {
 		outDir: 'dist'
 	},
